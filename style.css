@@ -24,6 +24,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 
     display: flex;
     justify-content: center;
@@ -110,19 +112,18 @@ body {
     color: var(--dark-gray);
 }
 
-.circle1, .circle2 {
+.circle1 {
     position: absolute;
+    top: -60%;
+    left: -15%;
     z-index: 1;
 }
 
-.circle1 {
-    top: -60%;
-    left: -15%;
-}
-
 .circle2 {
+    position: absolute;
     bottom: -60%;
     right: -20%;
+    z-index: 1;
 }
 
 @media (max-width: 700px) {
