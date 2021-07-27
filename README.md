@@ -24,7 +24,7 @@ Users should be able to:
 ![](./images/screenshot.png)
 ### Links
 
-- Live Site URL: [Check here]()
+- Live Site URL: [Check here](https://kind-haibt-c2fd7c.netlify.app)
 
 ### Built with
 
@@ -38,6 +38,6 @@ This challenge help me to improve my habiliteis relative and absolute position (
 
 ## Author
 
-- Ivan Geier
+- Ivan Geier - [@ivangeier](https://github.com/ivangeier)
 - Frontend Mentor - [@ivangeier](https://www.frontendmentor.io/profile/ivangeier)
 - Twitter - [@ivangeier](https://www.twitter.com/ivangeier)
