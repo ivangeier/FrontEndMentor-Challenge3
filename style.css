@@ -24,16 +24,12 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
-
     background-color: var(--dark-cyan);
 }
 
 .container {
     width: 100%;
     height: 100%;
-    
-    overflow: hidden;
 
     display: flex;
     justify-content: center;
@@ -120,15 +116,17 @@ body {
 }
 
 .circle1 {
-    position: absolute;
+    right: 52vw;
+    bottom: 50vh;
+    position: fixed;
     z-index: -1;
-    margin: -30rem -23rem;
 }
 
 .circle2 {
-    position: absolute;
-    z-index: -1;
-    margin: 30rem 36rem;
+  top: 45vh;
+  left: 52vw;
+  position: fixed;
+  z-index: -1;
 }
 
 .attribution { 
